@@ -2,7 +2,7 @@
   "name": "wordle-tr",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://mrsteelion.github.io/wordle-tr/",
+  "homepage": "https://gbotsdev.github.io/wordle-tr/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
