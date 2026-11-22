@@ -31,8 +31,8 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
       } else if (e.code === 'Backspace') {
         onDelete()
       } else {
-        const key = e.key.toUpperCase()
-        if (key.length === 1 && key >= 'A' && key <= 'Z') {
+        const key = e.key.toLocaleUpperCase('tr-TR')
+        if (/^[A-ZÇĞİÖŞÜ]$/.test(key)) {
           onChar(key)
         }
       }
